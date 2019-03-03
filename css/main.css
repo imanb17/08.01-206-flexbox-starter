@@ -133,27 +133,11 @@ main {
   align-items: center;
 }
 
-#div-1,
-#div-2,
-#div-3 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #fff;
-  line-height: 1.5em;
-  font-size: 1.25em;
-  height: auto;
-}
 
-.wrapper span {
-  font-family: 'Lora', sans-serif;
-  font-size: 1.3em;
-}
 
 .flex-container {
   /*set display to flex and vertically & horizontally align by setting justify-content and align-items to center, and set flex-flow to row wrap*/
   display: flex;
-  justify-content: center;
   align-items: center;
   flex-flow: row wrap;
   justify-content: space-between;
@@ -262,10 +246,12 @@ main {
   #div-1,
   #div-2{
       /* set your flex value to 1 50% */
+      flex: 1 50%;
   }
 
   #div-3 {
     /* set your flex value to 1 100% */
+    flex: 1 100%;
   }
 }
 
